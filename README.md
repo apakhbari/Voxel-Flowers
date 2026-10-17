@@ -1,5 +1,7 @@
 # Voxel Flowers 🌸
 
+A containerized fork of Voxel-Flowers mady by @Zazargari
+
 A 3D generative art project created with JavaScript and WebGL. This guide walks you through running the project on your computer using Docker—no coding experience required!
 
 ---
