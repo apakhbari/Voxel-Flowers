@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  voxel-flowers:
+    build: .
+    container_name: voxel-flowers
+    ports:
+      - "8080:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro
+      - ./main.js:/usr/share/nginx/html/main.js:ro
+    restart: unless-stopped
